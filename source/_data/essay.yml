@@ -1,0 +1,29 @@
+# class_name	String	【可选】标识符，无实际意义，选填
+# essay_list	Array	【必选】即刻短文数据列表
+# essay_list.content	String	【必选】短文 文字内容
+# essay_list.date	Time	【必选】短文发布时间 格式建议为 2022/10/26 08:00:00
+# essay_list.image	Array	【可选】短文图片内容, 可填写多张图片
+# essay_list.from	String	【可选】短文 来自何处, 当然也可以填任何你想填写的标识
+# essay_list.link	String	【可选】外部链接
+# essay_list.aplayer	Array	【可选】aplayer 播放器的单曲音乐, 需 aplayer 支持
+# essay_list.aplayer.server	String	【essay_list.aplayer 后必选】aplayer 服务商
+# essay_list.aplayer.id	String	【essay_list.aplayer 后必选】单曲 id
+- class_name: 哔哔赖赖
+  essay_list:
+    - content: 可以看看我的音乐哦, 耶✌️, 终于不会混乱🤪了
+      date: 2022/11/11
+      link: http://localhost:4000/musiccentor
+    - content: 遇见彩虹🌈吃定彩虹
+      date: 2022/10/23 10:00:00
+      from: moon
+      image: 
+        - https://pic.imgdb.cn/item/637f69db16f2c2beb11993a2.jpg
+    - content: ThreeJs API真多丫
+      date: 2022/10/19
+    - content: 
+      date: 2022/09/25
+      aplayer:
+        server: tencent
+        id: 001FGQba3i10mw
+    - content: 还是不开Pjax好啊😂
+      date: 2022/11/15

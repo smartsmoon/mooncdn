@@ -1,0 +1,20 @@
+- class_name: 赞赏
+  reward_list:
+    - name: 小茶
+      amount: 20
+      datatime: 2022-11-23
+    - name: 爽子哥
+      amount: 1
+      datatime: 2022-11-23
+    - name: moon
+      amount: 50
+      datatime: 2022-11-10
+    - name: 阿巴斯
+      amount: 1
+      datatime: 2022-11-24
+    - name: 路人甲
+      amount: 1
+      datatime: 2022-11-20
+    - name: 路人乙
+      amount: 1
+      datatime: 2022-11-24
