@@ -25,7 +25,7 @@ class Musics {
                 id: 1,
                 title: '最伟大的作品-周杰伦',
                 singer: '周杰伦',
-                songUrl: '../../../../musiccentor/songs/最伟大的作品.flac',
+                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/songs/最伟大的作品.flac',
                 imageUrl: 'https://y.qq.com/music/photo_new/T002R300x300M0000042cH172YJ0mz_3.jpg?max_age=2592000'
             },
             {
