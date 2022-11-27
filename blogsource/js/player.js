@@ -32,7 +32,7 @@ class Musics {
             {
                 id: 1,
                 title: '消愁-毛不易',
-                singer: '巨星毛不易',
+                singer: '毛不易',
                 songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/消愁.mp3',
                 imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/images/songs/消愁.jpg'
             },
@@ -118,7 +118,7 @@ class Musics {
                 title: '无名的人-毛不易',
                 singer: '毛不易',
                 songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/无名的人.mp3',
-                imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/images/songs/平凡之路.webp'
+                imageUrl: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fugc-img.ifengimg.com%2Fimg%2F2022%2F1%2F6%2F8CYelrHHxCB%2F459a240a-a5ef-4789-b27f-518de52412a6_w948_h632.jpeg&refer=http%3A%2F%2Fugc-img.ifengimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672150909&t=d322f429de9c441d0522f6850f5213c2'
             },
             {
                 id: 4,
@@ -184,7 +184,7 @@ class PlayerCreator {
     renderSongList() {
         let _str = '';
         this.musics.songs.forEach((song, i) => {
-            _str += `<li class="music__list__item">${song.title}</li>`
+            _str += `<li class="music__list__item" style="display:inline-block; width:25%">${song.title}</li>`
         });
         this.song_list.html(_str);
     }

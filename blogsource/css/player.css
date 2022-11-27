@@ -7,7 +7,7 @@
 /* 播放器大小 */
 .music-player {
     width: 80%;
-    height: 800px;
+    height: 350px;
   }
   .music-player h3{
     margin: 0px 0 1px!important;
@@ -71,7 +71,9 @@
   }
   
   .music__list__item.play {
-    color: #fff;
+    color: #e56161;
+    background-image: linear-gradient( to right, #9cf5e9 10%, #f0a8d0 100%);
+    border-radius: 3%
   }
   
   .music__list__item.play:before {
@@ -79,7 +81,7 @@
     content: "\e87a";
     position: absolute;
     left: 0px;
-    top: 4px;
+    top: 0px;
   }
   /* 播放器主体 */
   .music-player__main {
