@@ -30,17 +30,17 @@ class Musics {
             //     imageUrl: 'https://y.qq.com/music/photo_new/T002R300x300M0000042cH172YJ0mz_3.jpg?max_age=2592000'
             // },
             {
-                id: 2,
+                id: 1,
                 title: '消愁-毛不易',
                 singer: '毛不易',
-                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/songs/消愁.mp3',
-                imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/images/songs/消愁.jpg'
+                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/消愁.mp3',
+                imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/images/songs/消愁.jpg'
             },
             {
-                id: 3,
+                id: 2,
                 title: '盗墓笔记·十年人间-李常超',
                 singer: '李常超',
-                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/songs/盗墓笔记·十年人间.mp3',
+                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/盗墓笔记·十年人间.mp3',
                 imageUrl: 'https://y.qq.com/music/photo_new/T002R300x300M000003tKntM4Tnk3N_1.jpg?max_age=2592000'
             },
             // {
@@ -114,18 +114,18 @@ class Musics {
             //     imageUrl: 'https://y.qq.com/music/photo_new/T002R300x300M0000042cH172YJ0mz_3.jpg?max_age=2592000'
             // },
             {
-                id: 14,
+                id: 3,
                 title: '无名的人-毛不易',
                 singer: '毛不易',
-                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/songs/无名的人.mp3',
-                imageUrl: 'https://y.qq.com/music/photo_new/T002R300x300M0000042cH172YJ0mz_3.jpg?max_age=2592000'
+                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/无名的人.mp3',
+                imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/images/songs/平凡之路.webp'
             },
             {
-                id: 15,
+                id: 4,
                 title: '平凡之路-朴树',
                 singer: '朴树',
-                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/songs/平凡之路.mp3',
-                imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/source/musiccentor/images/songs/平凡之路.webp'
+                songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/平凡之路.mp3',
+                imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/images/songs/平凡之路.webp'
             }
         ]
     }
