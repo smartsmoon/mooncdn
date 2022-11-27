@@ -32,7 +32,7 @@ class Musics {
             {
                 id: 1,
                 title: '消愁-毛不易',
-                singer: '毛不易',
+                singer: '巨星毛不易',
                 songUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/songs/消愁.mp3',
                 imageUrl: 'https://cdn.jsdelivr.net/gh/smartsmoon/mooncdn/blogsource/music/images/songs/消愁.jpg'
             },
